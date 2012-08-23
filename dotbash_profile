@@ -1,0 +1,16 @@
+#########################################################################
+#         .bash_profile: Personal initialisation file for bash          #
+#########################################################################
+
+# This script file is executed by bash(1) for login shells.  By default,
+# it does nothing, as ~/.bashrc is already sourced by /etc/profile.
+#
+# #
+
+#enable BASH syntax highlighting
+export CLICOLOR=1
+export LSCOLORS=ExFxCxDxCxegedabagacad
+
+#enable colorized prompt
+export PS1="\e[1;33m[\u@\h \W]\$ \e[m "
+

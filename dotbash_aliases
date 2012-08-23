@@ -1,0 +1,5 @@
+#some useful aliases, so I don't hurt myself
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias ls='ls --color=auto'
